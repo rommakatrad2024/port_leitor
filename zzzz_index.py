@@ -9,8 +9,6 @@
 
 from gtts import gTTS
 
-texto = "outlook"
-lingua = "en-uk"
-tts = gTTS(texto, lang=lingua)
-tts.save("u_outlook.mp3")
+tts = gTTS('outlook', lang='en', tld='us')
+tts.save("outlook_u_pt_en.mp3")
 
